@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="home.js" defer></script>
+    <script src="booking.js" defer></script>
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <title>Responsive Navigation Bar</title>
+  </head>
+  <body>
+    <!-- navigation html start here -->
+    <nav>
+      <div class="nav-container">
+        <a href="slider.html" class="logo">LOGO</a>
+        <button class="menu-btn">☰</button>
+        <ul class="nav-links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="price.html">price</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+         
+        </ul>
+      </div>
+    </nav>
+    <!-- navigation html ends  here -->
+
+    <!-- hero slider html start here -->
+    <div class="slider-container">
+      <!-- First Slide -->
+      <div class="slide active">
+        <video autoplay muted loop playsinline>
+          <source src="vid/vedio1.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <!-- Second Slide -->
+      <div class="slide">
+        <video autoplay muted loop playsinline>
+          <source src="vid/vedio2.mp4" type="video/mp4" />
+        </video>
+        <div class="content-overlay">
+          <h2>Inspiring Design</h2>
+          <p>
+            Elevate your digital presence with Merit Solution. 
+            Our innovative solutions create captivating experiences
+             that truly engage your audience.
+          </p>
+          <a href="#letgobook" class="cta-button">Explore More</a>
+        </div>
+      </div>
+
+      <!-- Navigation Dots -->
+      <div class="slider-nav">
+        <div class="slider-dot active"></div>
+        <div class="slider-dot"></div>
+      </div>
+    </div>
+    <!-- hero slider  html ends  here -->
+    <section class="ourservices-container">
+      <div class="ourservices-grid">
+        <div class="ourservice-box">
+          <i class="fas fa-search"></i>
+          <h3>SEO Optimization</h3>
+          <p>Boost your website's visibility with our expert SEO services.</p>
+        </div>
+        <div class="ourservice-box">
+          <i class="fas fa-paint-brush"></i>
+          <h3>UI/UX Design</h3>
+          <p>Create stunning user experiences that engage and convert.</p>
+        </div>
+        <div class="ourservice-box">
+          <i class="fas fa-laptop-code"></i>
+          <h3>Website Design</h3>
+          <p>Custom websites that reflect your brand and drive results.</p>
+        </div>
+        <div class="ourservice-box">
+          <i class="fas fa-share-alt"></i>
+          <h3>Social Media</h3>
+          <p>Engage your audience across all social platforms.</p>
+        </div>
+        <div class="ourservice-box">
+          <i class="fas fa-mobile-alt"></i>
+          <h3>Mobile Development</h3>
+          <p>Build powerful mobile applications for your business.</p>
+        </div>
+        <div class="ourservice-box">
+          <i class="fas fa-chart-line"></i>
+          <h3>Analytics</h3>
+          <p>Data-driven insights to improve your digital presence.</p>
+        </div>
+        <div class="ourservice-box">
+          <i class="fas fa-bullhorn"></i>
+          <h3>Digital Marketing</h3>
+          <p>Comprehensive marketing strategies for growth.</p>
+        </div>
+        <div class="ourservice-box">
+          <i class="fas fa-shopping-cart"></i>
+          <h3>E-commerce</h3>
+          <p>Build and optimize your online store.</p>
+        </div>
+        <div class="ourservice-box">
+          <i class="fas fa-tools"></i>
+          <h3>Maintenance</h3>
+          <p>Keep your digital assets running smoothly.</p>
+        </div>
+      </div>
+      <div class="services-description">
+        <h2>Merits Solution Digital Services</h2>
+        <p>We offer a comprehensive suite of digital services designed to help your business thrive in the online world. From creating stunning websites and optimizing them for search engines to managing your social media presence and developing custom mobile applications, our team of experts is here to help you achieve your digital goals.</p>
+        <br>
+        <p>Each service is tailored to meet your specific needs and delivered with the highest level of professionalism. We combine creativity with technical expertise to ensure that every project we undertake adds real value to your business and helps you stay ahead of the competition.</p>
+      </div>
+    </section>
+   
+
+ 
+    <!-- step to get started html start here -->
+
+    <section class="steps-section-main">
+      <h2 class="section-get">Steps to Get Started</h2>
+      <div class="steps-container">
+        <div class="step-card fade-in">
+          <div class="step-number">Step 1</div>
+          <h3 class="step-title">Creative Briefing</h3>
+          <p class="step-description">
+            "In this free consultation, we'll discuss your goals and project
+             details to ensure we understand your vision. If you’re ready to 
+             move forward, we’ll schedule a follow-up call to plan the next steps."
+          </p>
+        </div>
+
+        <div class="step-card fade-in">
+          <div class="step-number">Step 2</div>
+          <h3 class="step-title">Strategic Planning</h3>
+          <p class="step-description">
+            Once you decide to move forward with your project,
+             we'll have a call to review the details and outline
+              everything needed to bring your vision to life."
+          </p>
+        </div>
+
+        <div class="step-card fade-in">
+          <div class="step-number">Step 3</div>
+          <h3 class="step-title">Project</h3>
+          <p class="step-description">
+            Once we have all the necessary details, we'll
+            begin your project promptly. After completing the
+             first draft, we'll send a request to schedule a
+              call to review the finished work together."
+          </p>
+        </div>
+      </div>
+      <a href="#letgobook" class="get-button">BOOK us now </a>
+    </section>
+    <!-- step to get started html ends  here -->
+
+    <!-- services for your success  html start here
+    <section class="services-section">
+      <h2 class="section-title">Services For Your Success</h2>
+      <div class="services-grid">
+        <div class="service-card fade-in">
+          <h3 class="service-title">Web Design</h3>
+          <p class="service-description">
+            Affordable and Local Web Design Agency
+          </p>
+          <a href="put link here" class="learn-more-btn">Learn More</a>
+        </div>
+
+        <div class="service-card fade-in">
+          <h3 class="service-title">SEO</h3>
+          <p class="service-description">
+            Optimize Your Website For Your Location
+          </p>
+          <a href="put link here" class="learn-more-btn">Learn More</a>
+        </div>
+
+        <div class="service-card fade-in">
+          <h3 class="service-title">Business Marketing</h3>
+          <p class="service-description">
+            Google Ads, Social Media and Facebook Ads
+          </p>
+          <a href="put link here" class="learn-more-btn">Learn More</a>
+        </div>
+
+        <div class="service-card fade-in">
+          <h3 class="service-title">Review Magnet</h3>
+          <p class="service-description">
+            The Power of Customer Reviews at Your Fingertips
+          </p>
+          <a href="put link here" class="learn-more-btn">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+     -->
+    <!-- services for your success  html ends here -->
+    <section class="why-choose-section">
+      <div class="floating-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+      </div>
+
+      <div class="container-why">
+        <div class="section-header-why">
+          <h2 class="section-title-why">Why Choose Us</h2>
+          <p class="section-subtitle-why">
+            Elevate your digital presence with our innovative design solutions
+            and unparalleled expertise
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                <path d="M2 2l7.586 7.586"></path>
+                <circle cx="11" cy="11" r="2"></circle>
+              </svg>
+            </div>
+            <h3 class="feature-title">Creative Innovation</h3>
+            <p class="feature-description">
+              Pushing boundaries with cutting-edge design solutions that
+              captivate and inspire your audience.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"
+                ></path>
+                <polyline points="7.5 4.21 12 6.81 16.5 4.21"></polyline>
+                <polyline points="7.5 19.79 7.5 14.6 3 12"></polyline>
+                <polyline points="21 12 16.5 14.6 16.5 19.79"></polyline>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+              </svg>
+            </div>
+            <h3 class="feature-title">Premium Quality</h3>
+            <p class="feature-description">
+              Delivering excellence in every pixel with meticulous attention to
+              detail and flawless execution.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polygon
+                  points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"
+                ></polygon>
+              </svg>
+            </div>
+            <h3 class="feature-title">Rapid Development</h3>
+            <p class="feature-description">
+              Fast-paced delivery without compromising quality, ensuring your
+              project launches on time and exceeds expectations.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">24/7 Dedication</h3>
+            <p class="feature-description">
+              Round-the-clock support and commitment to your success, ensuring
+              peace of mind throughout your project.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- why choose us   html ends here -->
+    <!-- our crative journey html ends here -->
+    <section class="portfolio-section">
+      <div class="section-content">
+        <div class="portfolio-header">
+          <h2 class="portfolio-title">Our Creative Journey</h2>
+          <p class="portfolio-subtitle">
+            Discover our most impactful projects that showcase our passion for
+            innovative design and flawless execution
+          </p>
+          <a href="portfolio.html" class="portfolio-button">check our portfolio </a>
+        </div>
+
+        <div class="slider-container">
+          <div class="fade-left"></div>
+          <div class="fade-right"></div>
+
+          <div class="slider-track animate-track">
+            <!-- First set of images -->
+            <div class="slider-item">
+              <img
+                src="img/full-template-578-first-portfolio.jpg"
+                alt="Portfolio 1"
+              />
+            </div>
+            <div class="slider-item">
+              <img
+                src="img/full-template-580-woox-travel.jpg"
+                alt="Portfolio 2"
+              />
+            </div>
+            <div class="slider-item">
+              <img
+                src="img/full-template-572-designer.jpg"
+                alt="Portfolio 3"
+              />
+            </div>
+            <div class="slider-item">
+              <img src="img/full-template-574-mexant.jpg" alt="Portfolio 4" />
+            </div>
+            <div class="slider-item">
+              <img
+                src="img/full-health.jpg"
+                alt="Portfolio 5"
+              />
+            </div>
+            <div class="slider-item">
+              <img
+                src="img/fullnew.jpg"
+                alt="Portfolio 6"
+              />
+            </div>
+            <div class="slider-item">
+              <img
+                src="img/full-template-581-kind-heart-charity.jpg"
+                alt="Portfolio 7"
+              />
+            </div>
+            <div class="slider-item">
+              <img
+                src="img/full-template-586-scholar.jpg"
+                alt="Portfolio 8"
+              />
+            </div>
+            <div class="slider-item">
+              <img
+                src="img/full-template-587-tiya-golf-club.jpg"
+                alt="Portfolio 9"
+              />
+            </div>
+            <div class="slider-item">
+              <img
+                src="img/full-template-591-villa-agency.jpg"
+                alt="Portfolio 10"
+              />
+            </div>
+
+            <!-- Duplicate set for seamless loop -->
+            <div class="slider-item">
+              <img
+                src="img/full-template-578-first-portfolio.jpg"
+                alt="Portfolio 1"
+              />
+            </div>
+            <div class="slider-item">
+              <img
+                src="img/full-template-580-woox-travel.jpg"
+                alt="Portfolio 2"
+              />
+            </div>
+            <div class="slider-item">
+              <img
+                src="img/full-template-572-designer.jpg"
+                alt="Portfolio 3"
+              />
+            </div>
+            <div class="slider-item">
+              <img
+                src="img/full-template-574-mexant.jpg"
+                alt="Portfolio 4"
+              />
+            </div>
+            <div class="slider-item">
+              <img
+                src="img/full-health.jpg"
+                alt="Portfolio 5"
+              />
+            </div>
+            <div class="slider-item">
+              <img
+                src="img/fullnew.jpg"
+                alt="Portfolio 6"
+              />
+            </div>
+            <div class="slider-item">
+              <img
+                src="img/full-template-581-kind-heart-charity.jpg"
+                alt="Portfolio 7"
+              />
+            </div>
+            <div class="slider-item">
+              <img
+                src="img/full-template-586-scholar.jpg"
+                alt="Portfolio 8"
+              />
+            </div>
+            <div class="slider-item">
+              <img
+                src="img/full-template-587-tiya-golf-club.jpg"
+                alt="Portfolio 9"
+              />
+            </div>
+            <div class="slider-item">
+              <img src="img/full-template-591-villa-agency.jpg" alt="Portfolio
+              10" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- our creative journey html ends here -->
+    <!-- booking form  html start here -->
+
+    <section class="appointment-form" id="letgobook">
+      <div class="booking-container">
+        <div class="booking-form">
+          <h2 class="form-title">Book an Appointment</h2>
+          <form id="bookingForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" required />
+              </div>
+              <div class="form-group">
+                <label for="service">Select Service</label>
+                <select id="service" required>
+                  <option value="">Choose a service</option>
+                  <option value="service1">1</option>
+                  <option value="service2">2</option>
+                  <option value="service3">3</option>
+                  <option value="service1">1</option>
+                  <option value="service2">2</option>
+                  <option value="service3">3</option>
+                  <option value="service4">Content Writing</option>
+                  <option value="service5">social media setup</option>
+                  <option value="service6">Additional pages</option>
+                  <option value="service7">Google my business setup</option>
+                  <option value="service8">UI/UX Two pages website</option>
+                  <option value="service9">UI/UX Three to Five pages website</option>
+                  <option value="service10">UI/UX more than Five pages website</option>
+                  <option value="service11">mobile Development</option>
+                  <option value="service12">UI/UX Simple Moble Application</option>
+                  <option value="service13">UI/UX Advance Moble Application</option>
+                  <option value="service14">SEO O ptimization</option>
+                  <option value="service15">Website maintenance</option>
+                  <option value="service1">Other service</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="date">Preferred Date</label>
+                
+                <input type="date" id="date" required />
+              </div>
+              <div class="form-group">
+                <label for="timeSlot">Time Slot</label>
+                <select id="timeSlot" required>
+                  <option value="">Select time</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="requirements">Special Requirements</label>
+              <textarea
+                id="requirements"
+                placeholder="Any special requirements or notes..."
+              ></textarea>
+            </div>
+
+            <button type="submit">Book Appointment</button>
+          </form>
+        </div>
+
+        <div class="contact-section">
+          <h2 class="contact-title">Contact Information</h2>
+          <div class="contact-grid">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+
+
+              <h3>Address</h3>
+              <p>4,4526 47 St<br />Red deer, Alberta</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone-alt"></i>
+
+
+              <h3>Phone</h3>
+              <p>(403) 307-4521</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+
+
+              <h3>Email</h3>
+
+              <p>Makinde.taofeek95@gmailcom</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- booking form  html ends here -->
+
+    <!-- footer form  html start here -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Merits Solution</h3>
+          <p>Creating beautiful and functional websites tailored to your needs.</p>
+        </div>
+  
+        <div class="footer-section">
+          <h3>Portfolio</h3>
+          <p><a href="portfolio.html">check our portfolio</a></p>
+         
+          
+        </div>
+  
+        <div class="footer-section">
+          <h3>Services</h3>
+          <p><a href="#">SEO Optimization, UI/UX Design</a></p>
+          
+          <p><a href="#">Responsive web Design</a></p>
+          
+          <p><a href="#">Mobile Development, Analytics</a></p>
+          
+          <p><a href="#">Digital Marketing, E-Commerce</a></p>
+          <p><a href="#"></a>social Media</p></p>
+          
+        </div>
+  
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <div class="contact-info">
+            <p>Email:  Meritsolution@gmail.com</p>
+            <p>Phone: (403) 307-4521</p>
+            <p>Address: 4, 4526 47St, Red deer</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer form  html ends here -->
+    <!-- footer form  html start here -->
+  </body>
+</html>
+

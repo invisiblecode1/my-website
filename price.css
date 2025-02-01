@@ -1,0 +1,281 @@
+
+
+
+
+
+
+
+.web-pricing-section {
+    padding: 60px 20px;
+    background: #0f172a;
+    font-family: 'Inter', sans-serif;
+    padding-top: 120px;
+    
+  }
+
+  .web-pricing-header {
+    text-align: center;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+  }
+
+  .web-pricing-header h2 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+
+  .web-pricing-header p {
+    color: #ffffffb6;
+    font-size: 1.1rem;
+  }
+
+  .web-pricing-container {
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .web-pricing-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .web-pricing-card {
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 20px;
+    width: 260px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    position: relative;
+  }
+
+  .web-pricing-card:hover {
+    transform: translateY(-10px);
+  }
+
+  .web-pricing-card.popular {
+    border: 2px solid #4299e1;
+  }
+
+  .web-popular-badge {
+    position: absolute;
+    top: -12px;
+    right: 10px;
+    background: #4299e1;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+  }
+
+  .web-plan-name {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+
+  .web-plan-price {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .web-plan-price span {
+    font-size: 0.875rem;
+    color: #2c3e50;
+  }
+
+  .web-features-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-size: 1.2rem;
+  }
+
+  .web-features-list li {
+    color: #4a5568;
+    padding: 6px 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .web-features-list li::before {
+    content: "✓";
+    color: #48bb78;
+    margin-right: 8px;
+    font-weight: bold;
+  }
+
+
+  .web-cta-button  {
+    display: relative;
+  width: 100%;
+
+  padding: 18px 36px;
+  background-color: #4a90e2;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.4s ease;
+  border: 2px solid transparent;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  }
+  
+  .web-cta-button:hover {
+    background-color: transparent;
+  border-color: #4a90e2;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(255, 77, 77, 0.3);
+  }
+  .web-get-button {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+  }
+  
+  @media (max-width: 1200px) {
+    .web-pricing-wrapper {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .web-pricing-card {
+      width: calc(33.333% - 20px);
+      min-width: 250px;
+    }
+  }
+    /*<!--PORTFOLIO css ends here-->*/
+ 
+
+
+    /*<!--other price  css start here-->*/
+  
+  .pricing-section {
+    padding: 60px 20px;
+    background: #ffffff;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .pricing-header {
+    text-align: center;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+  }
+
+  .pricing-header h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+
+  .pricing-header p {
+    color: #29212193;
+    font-size: 1.1rem;
+  }
+
+  .pricing-container {
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+
+  .pricing-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(25% - 30px);
+    min-width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    position: relative;
+  }
+
+  .pricing-card:hover {
+    transform: translateY(-10px);
+  }
+
+
+  .plan-name {
+    font-size: 1.1rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+
+  .plan-price {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .plan-price span {
+    font-size: 0.875rem;
+    color: #a3bde4;
+  }
+
+  .plan-description {
+    color: #4a5568;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    height: 180px;
+    overflow-y: auto;
+  }
+
+  .cta-button {
+    display: relative;
+  width: 100%;
+
+  padding: 18px 36px;
+  background-color: #4a90e2;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: all 0.4s ease;
+  border: 2px solid transparent;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  }
+
+  .cta-button:hover {
+    background-color: transparent;
+  border-color: #4a90e2;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(255, 77, 77, 0.3);
+  }
+
+  .cta-button{
+    padding: 8px 15px;
+    font-size: 1.1rem;
+  }
+  
+  @media (max-width: 1200px) {
+    .row {
+      flex-wrap: wrap;
+    }
+    .pricing-card {
+      width: calc(50% - 30px);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .pricing-card {
+      width: 100%;
+    }
+  }

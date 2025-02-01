@@ -1,0 +1,88 @@
+
+/*<!-- Services For Your Success css ends   here -->*/
+
+
+
+.portfolio-section {
+  background: #0f172a;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  
+}
+
+.slider-row {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider-track {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+
+.slider-item {
+  min-width: 100px;
+  height: 860px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.slider-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes scrollLeft {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes scrollRight {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+.animate-left {
+  display: flex;
+  animation: scrollLeft 50s linear infinite;
+}
+
+.animate-right {
+  display: flex;
+  animation: scrollRight 50s linear infinite;
+}
+
+.fade-left, .fade-right {
+  position: absolute;
+  top: 0;
+  width: 150px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.fade-left {
+  left: 0;
+  background: linear-gradient(to right, #0f172a, transparent);
+}
+
+.fade-right {
+  right: 0;
+  background: linear-gradient(to left, #0f172a, transparent);
+}
+/*<!-- Services For Your Success css ends   here -->*/
+/*<!-- Services For Your Success css ends   here -->*/
+/*<!-- Services For Your Success css ends   here -->*/
+/*<!-- Services For Your Success css ends   here -->*/
+/*<!-- Services For Your Success css ends   here -->*/
